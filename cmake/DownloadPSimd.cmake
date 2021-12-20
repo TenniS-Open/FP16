@@ -4,7 +4,7 @@ PROJECT(psimd-download NONE)
 
 INCLUDE(ExternalProject)
 ExternalProject_Add(psimd
-	GIT_REPOSITORY https://github.com/Maratyszcza/psimd.git
+	GIT_REPOSITORY https://lvsen@gitlab.seetatech.com/lvsen/psimd.git
 	GIT_TAG master
 	SOURCE_DIR "${CMAKE_BINARY_DIR}/psimd-source"
 	BINARY_DIR "${CMAKE_BINARY_DIR}/psimd"
