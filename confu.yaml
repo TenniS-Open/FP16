@@ -3,6 +3,6 @@ title: half-precision floating-point conversion
 license: MIT
 deps:
   - name: psimd
-    url:  https://lvsen@gitlab.seetatech.com/lvsen/psimd.git
+    url:  https://github.com/TenniS-Open/psimd.git
   - name: googletest
   - name: googlebenchmark
